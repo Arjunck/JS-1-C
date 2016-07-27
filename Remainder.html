@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+
+    function Reminder(){
+        var x =document.form1.txtx.value;
+        var y =document.form1.txty.value;
+        document.write("<P> x =" + (x) + "; y =" + (y) + "; Reminder =" + (x % y) + ";</p>");
+
+    }
+
+
+</script>
+
+
+<form name=form1>
+        
+       <input type="text" name="txtx" size=10>
+       <input type="text" name="txty" size=10>
+       <input type="button" value="Calculate" onClick='Reminder();'>  
+    </form>
+
+</body>
+</html>
+
